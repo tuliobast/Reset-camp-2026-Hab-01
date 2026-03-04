@@ -1,0 +1,120 @@
+.hero { 
+  background: "#000";
+  min-height: "100vh";
+  position: "relative" 
+}
+
+section {
+  height: "100vh";
+  display: "flex";
+  flex-direction: "column";
+  align-items: "center";
+  justify-content: "center";
+  position: "relative";
+  z-index: 1;
+  gap: 16
+}
+
+h1 {
+  font-family: "monospace";
+  font-size: "clamp(1.8rem, 5vw, 3.5rem)";
+  letter-spacing: "0.2em";
+  margin: 0;
+  text-align: "center";
+  text-shadow: "0 0 30px #00ff41";
+}
+
+p { 
+  color: "#00bb33"; 
+  font-family: "monospace"; 
+  letter-spacing: "0.3em"; 
+  margin: 0; 
+  font-size: 12
+}
+
+img {
+  width: "100%";
+  height: "100%";
+  object-fit: "cover";
+  display: "block";
+  transition: "filter 0.08s linear";
+}
+
+.name-role {
+  position: "absolute";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: "20px 16px 16px";
+  background: "linear-gradient(transparent, rgba(0,0,0,0.9))";
+  opacity: infoOpacity;
+  transition: opacity 0.1s, transform 0.1s;
+  z-index: 3;
+}
+
+.name {
+  color: "#00ff41";
+  margin: 0;
+  font-family: "monospace";
+  font-size: 18;
+  font-weight: "bold"; 
+  text-shadow: "0 0 8px #00ff41" 
+}
+
+.role {
+  color: "#88cc88";
+  margin: "4px 0 0";
+  font-family: "monospace";
+  font-size: 13; 
+  letter-spacing: "0.05em";
+}
+
+.line-effect {
+  position: "absolute";
+  inset: 0;
+  z-index: 4;
+  pointer-events: "none";
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
