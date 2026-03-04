@@ -261,7 +261,7 @@ function HeroTitle() {
       fontFamily: "monospace",
       fontSize: "clamp(1.8rem, 5vw, 3.5rem)",
       letterSpacing: "0.2em",
-      margin: "56px",
+      margin: "50px",
       textAlign: "center",
       textShadow: "0 0 30px #00ff41",
     }}>
