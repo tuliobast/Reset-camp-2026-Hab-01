@@ -14,7 +14,6 @@ const PARTICIPANTS = [
   { id: 7, name: "Joaquin Pérez",  role: "Edad: 14",   img: "./hab_01/Joaquin_Perez-removebg-preview.png" },
   { id: 8, name: "Josias Villareal",  role: "Edad: 18",   img: "./hab_01/Josias_Villarreal-removebg-preview.png" },
   { id: 9, name: "Leandro Luna",  role: "Edad: 40",   img: "./hab_01/Leandro_Luna-removebg-preview.png" },
-  { id: 10, name: "Mateo Laguia",  role: "Edad: 19",   img: "./hab_01/mateo-removebg-preview.png" },
   { id: 11, name: "Santiago Heredia",  role: "Edad: 15",   img: "./hab_01/silueta_2-removebg-preview.png" },
   { id: 12, name: "Simon Useche",  role: "Edad: 28",   img: "./hab_01/Simon_Useche-removebg-preview.png" },
   { id: 13, name: "Thiago Gomez",  role: "Edad: 14",   img: "./hab_01/Thiago_Gomez-removebg-preview.png" },
